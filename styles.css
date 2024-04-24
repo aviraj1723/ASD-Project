@@ -1,0 +1,122 @@
+li{
+    margin-right: 12px;
+    margin-left: 12px;
+}
+ul{
+    list-style-type: none;
+    
+}
+header{
+    position: relative;
+}
+#bdy{
+    background-image: url("https://images.unsplash.com/photo-1579684288402-e3e337bcc7af?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    text-align: center;
+}
+footer{
+    background-color: rgb(42, 42, 42);
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.ftr-lnk{
+    text-decoration: none;
+    color: white;
+}
+#searchBx{
+    background-color: rgb(255, 250, 244);
+    border-bottom-left-radius: 10px ;
+    z-index: -1;
+    width: 30vw;
+}
+#srchbtn{
+    background-color: rgb(236, 225, 0);
+    border-top-right-radius: 10px;
+}
+#srchbtn:hover{
+    background-color: rgb(176, 176, 0);
+}
+#lg-btn:hover{
+    background-color: rgb(149, 97, 0);
+}
+#nvbr{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: rgb(171, 171, 171)
+}
+.dropdown-item:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+.dropdown-toggle:hover{
+    cursor: pointer;
+}
+#heads{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#lg-pg{
+    width: 50%;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 10vh;
+}
+.row{
+    flex-wrap: wrap;
+}
+#lgn-btn{
+    width: 100%;
+    background-color: rgb(236, 225, 0);
+}
+#lgn-btn:hover{
+    background-color: rgb(149, 97, 0);
+}
+#cnt-pg{
+    margin: auto;
+    width: 80vw;
+    height: 60vh;
+    margin-top: 5vh;
+    margin-bottom: 5px;
+}
+input{
+    width: 100%;
+}
+#cnt-frm{
+    margin-left: 10px;
+}
+#tagline{
+    color: white;
+    padding-top: 30vh ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#tg-hd{
+    color: black;
+    font-size: 100px;
+}
+#crt-itm{
+    height: 70vh;
+}
+.carousel-item{
+    width: 20vw;
+}
+#ftr-slide{
+    text-align: center;
+    background-color: rgba(153, 153, 153, 0.417);
+    padding-bottom: 10px;
+}
+ 
